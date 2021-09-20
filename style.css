@@ -1,0 +1,128 @@
+/*Linking fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Hind+Vadodara&family=Neucha&display=swap');
+
+/*background image and basic properties*/
+body {
+  background-image: url("C:/Users/saman/desktop/repositories/promosite/images/mos-oasis-darker.png");
+  font-family: 'Gruppo', cursive;
+  color: #FFFFFF;
+  background-size: 150%;
+}
+
+/*resizing the logo */
+#mainlogo{
+  width: 150px;
+  height: auto;
+  top: 0px;
+  left: 0px;
+}
+
+/*Styling the pic so it works like a paragraph kinda*/
+.kidposter {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*Styling the card so it pops a bit more, transition so it looks a bit smoother*/
+.card1{
+  display: absolute;
+  background-color:#000000;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  box-shadow: 0 10px 5px 0 black;
+  transition: 0.3s;
+  text-align: center;
+  text-align: justify;
+}
+
+.container1 {
+  padding: 20px 20px;
+}
+
+/* Deeper shadow with card hover */
+
+.card1:hover {
+  box-shadow: 0 20px 10px 0 black;
+}
+
+/*resizing the two images and getting them to center*/
+
+.row1, .row2 {
+  max-width: 70%;
+  position: flex;
+  max-height: auto;
+  border-radius: 20px;
+}
+
+.card2, .card3 {
+  text-align: center;
+  margin: 50px;
+}
+
+/*styling  the card2*/
+.card2{
+background-color:#000000;
+margin-left: 100px;
+margin-right: 100px;
+margin-bottom: 100px;
+box-shadow: 0 10px 5px 0 black;
+transition: 0.3s;
+}
+
+.row1 {
+  margin-top: 50px;
+}
+
+/*deeper hover card 2*/
+.card2:hover {
+  box-shadow: 0 20px 10px 0 black;
+}
+
+/*styling card3*/
+.card3{
+background-color:#000000;
+margin-left: 100px;
+margin-right: 100px;
+margin-bottom: 100px;
+box-shadow: 0 10px 5px 0 black;
+transition: 0.3s;
+}
+
+.row2 {
+  margin-top: 50px;
+}
+
+.card3:hover {
+  box-shadow: 0 20px 10px 0 black;
+}
+
+/*padding inside the cards*/
+.container2, .container3 {
+  padding: 40px 40px;
+  text-align: justify;
+}
+
+/*styling the video*/
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+/*styling the credits*/
+.credits {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+a {
+  color: #FFFFFF;
+}
