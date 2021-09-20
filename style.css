@@ -3,7 +3,7 @@
 
 /*background image and basic properties*/
 body {
-  background-image: url("C:/Users/saman/desktop/repositories/promosite/images/mos-oasis-darker.png");
+  background-image: url("file:///C:/Users/saman/Desktop/Repositories/promosite/images/mos-oasis-darker.png");
   font-family: 'Gruppo', cursive;
   color: #FFFFFF;
   background-size: 150%;
