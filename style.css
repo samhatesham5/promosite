@@ -1,12 +1,15 @@
 /*Linking fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Hind+Vadodara&family=Neucha&display=swap');
 
-/*background image and basic properties*/
+/*background image and basic properties (note to self, use links for background images in css ALWAYS)*/
 body {
   background-image: url("https://raw.githubusercontent.com/samhatesham5/promosite/main/images/mos-oasis-darker.png");
   font-family: 'Gruppo', cursive;
   color: #FFFFFF;
   background-size: 150%;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /*resizing the logo */
